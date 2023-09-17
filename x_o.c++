@@ -51,7 +51,6 @@ int main () {
         if (player_one.player_symbol != 'X' && player_one.player_symbol != 'O' ) {
             cout << "Invalid symbol! Please Enter X or O : ";
             cin >> player_one.player_symbol;
-            cin.ignore();
         }else
             break;
         }
